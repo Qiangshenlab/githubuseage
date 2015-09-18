@@ -1,0 +1,16 @@
+### submit local code
+mkdir network
+git clone git@github.com:ShenLab/network.git 
+git status
+git add *R
+git commit -a -m “init"
+git push origin master
+
+### update local code to github
+git config branch.master.remote origin
+git config branch.master.merge refs/heads/master
+git pull
+
+git add your_file
+git commit -m “comment"
+git push -u origin master
