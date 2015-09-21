@@ -1,0 +1,12 @@
+# github hq04405114@gmail.com
+Host shenlab
+Hostname github.com
+User Qiangshenlab
+IdentityFile ~/.ssh/id_rsa
+
+
+# github h510493094@qq.com
+Host qiang
+HostName github.com
+User gitQiang
+IdentityFile ~/.ssh/id_rsa_second
