@@ -6,6 +6,15 @@ git add *R
 git commit -a -m “init"
 git push origin master
 
+### multiple users
+git clone git@qiang:gitQiang/MICRF.git
+cd MICRF
+cp ../test.m ./
+git add test.m 
+git status
+git commit -a -m "init"
+git push git@qiang:gitQiang/MICRF.git master
+
 ### update local code to github
 git config branch.master.remote origin
 git config branch.master.merge refs/heads/master
