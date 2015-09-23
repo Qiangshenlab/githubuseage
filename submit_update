@@ -4,6 +4,8 @@ git clone git@github.com:ShenLab/network.git
 git status
 git add *R
 git commit -a -m “init"
+## git commit single file
+git commit -m 'my notes' path/to/my/file.ext
 git push origin master
 
 ### multiple users
