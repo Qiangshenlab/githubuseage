@@ -1,0 +1,8 @@
+ref: https://help.github.com/articles/generating-ssh-keys/
+
+step 1:
+ssh-keygen -t rsa -b 4096 -C h510493094@qq.com
+ssh-add id_rsa
+
+step 2:
+add key to your github profile
