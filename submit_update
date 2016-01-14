@@ -25,3 +25,8 @@ git pull
 git add your_file
 git commit -m “comment"
 git push -u origin master
+
+## remove or change folder of github code
+ref 1: http://stackoverflow.com/questions/1983346/deleting-files-using-git-github
+git add . -A git commit -m "removed some files"
+
