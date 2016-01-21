@@ -28,5 +28,14 @@ git push -u origin master
 
 ## remove or change folder of github code
 ref 1: http://stackoverflow.com/questions/1983346/deleting-files-using-git-github
-git add . -A git commit -m "removed some files"
+git add . -A 
+git commit -m "removed some files"
 
+## git submit to Shenlab repository
+mkdir network
+git clone git@github.com:ShenLab/network.git
+cd network
+git status
+git add *R
+git commit -a -m “init"
+git push origin master
