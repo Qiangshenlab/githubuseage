@@ -39,3 +39,12 @@ git status
 git add *R
 git commit -a -m “init"
 git push origin master
+
+
+## git delete files:!!! deletes it from the local file system.
+git rm file1.txt
+git commit -m "remove file1.txt"
+# only remove from repo
+git rm --cached file.txt
+# ref: http://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo
+
