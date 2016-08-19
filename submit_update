@@ -48,3 +48,10 @@ git commit -m "remove file1.txt"
 git rm --cached file.txt
 # ref: http://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo
 
+
+## git add new branches
+git checkout -b [new_branch_name]
+git branch
+# switch branches
+git checkout [branch_name]
+
