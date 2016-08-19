@@ -54,4 +54,5 @@ git checkout -b [new_branch_name]
 git branch
 # switch branches
 git checkout [branch_name]
-
+ref1: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
+ref2: https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
