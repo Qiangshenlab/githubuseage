@@ -26,6 +26,10 @@ git add your_file
 git commit -m “comment"
 git push -u origin master
 
+## git push: fatal: Authentication failed: reason password changed  -->
+git config --global user.name XXXX
+git config --global user.email XXXX
+
 ## remove or change folder of github code
 ref 1: http://stackoverflow.com/questions/1983346/deleting-files-using-git-github
 git add . -A 
